@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="...">
+    <link rel="stylesheet" href="styles/style.css"/>
+    <title>My Learning & Skills Website</title>
+</head>
+<body>
+    <header>
+        <h1 id="top">My Learning & Skills Website</h1>
+        <p>Welcome to my learning website.
+            I am learning HTML And Web development.
+            This website shows my skills,
+            learning journey,Study schedule and useful resources</p>
+    </header>
+    <nav>
+        <a href="#top">Back to Top</a>
+        <br><br>
+        <a href="index.html">Visit Home Page</a>
+        <br><br>
+        <a href="about.html">About Us</a>
+        <br><br>
+        <a href="contact.html">Contact Us</a>
+        <br><br>
+
+    </nav>
+
+    <main>
+
+        <section>
+            <h2 id="about">About Learning</h2>
+
+            <article>
+                <h3>My learning journey</h3>
+
+                <p>I have started learning HTML.
+                    I like HTML.
+                    I have completed all HTML Chapters.
+                    My future goal is to complete a Full Stack Developer course.</p>
+            </article>
+        </section>
+
+        <section>
+            <h2 id="skills">Skills List</h2>
+
+            <article>
+                <h3>My Skills</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Computer Basics</li>
+                </ul>
+            </article>
+        </section>
+
+        <section>
+            <h2 id="topics">Topics I am learning</h2>
+            <article>
+
+                <ul>
+                    <li>HTML
+                        <ul>
+                            <li>Basic Structure</li>
+                            <li>Headings</li>
+                            <li>Links</li>
+                            <li>Images </li>
+                            <li>List</li>
+                            <li>Table</li>
+                            <li>Form</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            </article>
+        </section>
+
+        <section>
+
+            <ul>
+                <li>CSS
+                    <ul>
+                        <li>Selector</li>
+                        <li>Color</li>
+                        <li>Font</li>
+                        <li>Box Model</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="study">My Study Schedule</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Shift</th>
+                        <th>Day </th>
+                        <th>Subject</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td rowspan="2">shift A</td>
+                        <td>Monday</td>
+                        <td>HTML</td>
+                        <td>2 hours</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>JavaScript</td>
+                        <td>2 hours</td>
+                    </tr>
+
+                    <tr>
+                        <td rowspan="2">Shift B</td>
+                        <td>Wednesday</td>
+                        <td>CSS</td>
+                        <td>3 hours</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Revision</td>
+                        <td>1 hour</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>My Learning Goals</h2><br>
+
+            <input type="checkbox" id="html" name="html" checked="">
+            <label for="html">HTML Complete</label>
+            <br>
+            <input type="checkbox" id="css" name="css">
+            <label for="css">CSS Complete</label>
+            <br>
+            <input type="checkbox" id="javascript" name="javascript">
+            <label for="javascript">JavaScript Complete</label>
+            <br>
+            <input type="checkbox" id="website" name="website">
+            <label for="website">Build My First Website</label>
+            <br>
+            <input type="checkbox" id="git" name="git">
+            <label for="git">Learn Git & GitHub</label>
+
+        </section>
+
+        <section>
+            <h2>My Learning Setup</h2>
+            <img src="images/desktop.png" 
+                alt="My Apple Desktop white color">
+        </section>
+
+        <section>
+            <h2>Learning Resources</h2>
+            <article>
+                <a href="#skills">Visit Skills Section</a>
+                <br>
+                <a href="#about">About Learning</a>
+                <br>
+                <a href="#topics">Topics I am learning</a>
+                <br>
+                <a href="#study">My Study Schedule</a>
+            </article>
+        </section>
+
+        <section>
+            <h2>Audio</h2>
+            <audio controls
+                loop
+                muted
+                 autoplay>
+                <source src="audio/audio 1.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section>
+            <h2>Video</h2>
+            <video controls width="350" height="150">
+                <source src="video/video 1.mp4" type="video/mp4">
+            </video>
+        </section>
+
+            <section>
+                <h2>Recommended Video</h2>
+                <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/qLE5DH4b3vI?si=VeyVeBMViRd4XkMU" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture; web-share"
+                 referrerpolicy="strict-origin-when-cross-origin" 
+                 allowfullscreen></iframe>
+            </section>
+    </main>
+            <footer>
+                <h2>&copy;2026 My Learning Website</h2>
+                <p>Keep Learning,Keep Growing</p>
+            </footer>
+</body>
+</html>
